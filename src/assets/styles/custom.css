@@ -1,0 +1,86 @@
+:root {
+  --vs-selected-bg: #fafafa;
+  --vs-search-input-placeholder-color: #a8b0b9;
+  --vs-border-radius: 2px;
+}
+
+.vs__selected-options {
+  padding-left: 8px;
+}
+
+.vs__selected-options .vs__search {
+  margin-top: 0;
+}
+
+.v-select {
+  --vs-actions-padding: 6px 4px 6px 4px;
+  --vs-border-color: #a8b0b9;
+}
+
+.vs__dropdown-toggle {
+  padding: 0;
+  border-radius: 2px;
+  height: 40px;
+  align-items: center;
+}
+
+.vs--single:not(.vs--open) .vs__selected + .vs__search {
+  width: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 0;
+}
+
+.vs--single .vs__selected-options {
+  width: 0;
+}
+
+.vs--single .vs__selected {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  overflow: hidden;
+  padding-top: 0.4rem;
+}
+
+.vs--single .vs__search::placeholder {
+  color: #999;
+}
+
+.vs__selected-options {
+  align-items: center;
+}
+
+.vs__selected-options .vs__selected {
+  margin-top: 0;
+  padding: 2px 6px;
+}
+
+.dp__theme_light {
+  --dp-primary-color: #a87e3a;
+}
+
+.dp__input {
+  line-height: 2rem;
+  height: 40px;
+  border-radius: 2px;
+  --dp-border-color: #a8b0b9;
+  --dp-border-color-hover: #a8b0b9;
+  --dp-text-color: #373f47;
+  font-size: 0.875rem;
+}
+
+.form-input::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.form-input:-ms-input-placeholder {
+  color: #999;
+}
+
+.form-input::-webkit-input-placeholder {
+  color: #999;
+}
